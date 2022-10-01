@@ -1,0 +1,5 @@
+/home/franciscoizquierdo/Transferências/lojas.table
+/home/franciscoizquierdo/Transferências/Users_Sentiment.table
+knime://LOCAL/TP7/Users_Sentiment.table
+knime://LOCAL/TP5/lojas.table
+knime://LOCAL/TP3/Users_Sentiment.table

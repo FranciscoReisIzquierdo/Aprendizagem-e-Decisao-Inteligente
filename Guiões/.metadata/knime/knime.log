@@ -1,0 +1,460 @@
+2022-04-30 13:26:58,046 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140218408042704}
+2022-04-30 16:01:06,495 : WARN  : main :  : Node : CSV Reader : 4:1 : Please specify a file
+2022-04-30 16:08:01,420 : WARN  : main :  : Node : Partitioning : 4:4 : No sampling method selected
+2022-04-30 16:11:18,399 : WARN  : main :  : Node : Decision Tree Learner : 4:5 : Guessing target column: "Embarked".
+2022-04-30 16:12:29,647 : WARN  : KNIME-Worker-17-Decision Tree Learner 4:5 :  : Node : Decision Tree Learner : 4:5 : 2 rows removed due to missing class value;
+2022-04-30 16:13:31,282 : WARN  : main :  : Node : Scorer : 4:7 : No columns selected yet.
+2022-04-30 16:15:24,017 : WARN  : main :  : Node : Scorer : 4:7 : Column 'Prediction (Embarked)' not found.
+2022-04-30 16:15:24,877 : WARN  : main :  : Node : Scorer : 4:7 : Column 'Prediction (Embarked)' not found.
+2022-04-30 16:15:41,701 : WARN  : main :  : Node : Scorer : 4:7 : Column 'Prediction (Embarked)' not found.
+2022-04-30 16:15:42,456 : WARN  : main :  : Node : Scorer : 4:7 : Column 'Prediction (Embarked)' not found.
+2022-04-30 16:15:44,160 : WARN  : KNIME-Worker-21-Decision Tree Predictor 4:6 :  : Node : Scorer : 4:7 : Column 'Prediction (Embarked)' not found.
+2022-04-30 16:19:56,079 : WARN  : main :  : Node : Scorer : 4:7 : Column 'Prediction (Survived)' not found.
+2022-04-30 16:19:56,607 : WARN  : main :  : Node : Scorer : 4:7 : Column 'Prediction (Survived)' not found.
+2022-04-30 16:19:58,298 : WARN  : KNIME-Worker-24-Decision Tree Predictor 4:6 :  : Node : Scorer : 4:7 : Column 'Prediction (Survived)' not found.
+2022-04-30 16:20:42,791 : WARN  : main :  : Node : Scorer : 4:7 : Column 'Prediction (Sex)' not found.
+2022-04-30 16:20:43,421 : WARN  : main :  : Node : Scorer : 4:7 : Column 'Prediction (Sex)' not found.
+2022-04-30 16:50:36,979 : WARN  : main :  : Node : CSV Reader : 5:1 : Please specify a file
+2022-04-30 16:50:41,883 : WARN  : main :  : Node : Excel Reader : 5:2 : Please specify a file
+2022-04-30 16:51:36,651 : WARN  : main :  : Node : Excel Reader : 5:2 : The node configuration changed and the table spec will be recalculated during execution.
+2022-04-30 16:51:37,087 : WARN  : main :  : Node : Excel Reader : 5:2 : The node configuration changed and the table spec will be recalculated during execution.
+2022-04-30 16:54:08,047 : WARN  : KNIME-Worker-34-Excel Reader 5:2 :  : Node : Joiner : 5:3 : No join columns passed.
+2022-04-30 17:07:52,614 : WARN  : main :  : Node : Partitioning : 5:8 : No sampling method selected
+2022-04-30 17:10:32,707 : WARN  : main :  : Node : Decision Tree Learner : 5:9 : Guessing target column: "Phone (right)".
+2022-04-30 17:11:18,926 : WARN  : main :  : Node : Scorer : 5:11 : No columns selected yet.
+2022-04-30 17:11:32,442 : WARN  : KNIME-Worker-59-Scorer 5:11 :  : Node : Scorer : 5:11 : There were missing values in the reference or in the prediction class columns.
+2022-04-30 17:12:24,429 : WARN  : main :  : Node : Excel Reader : 5:2 : The node configuration changed and the table spec will be recalculated during execution.
+2022-04-30 17:12:24,434 : WARN  : main :  : Node : Excel Reader : 5:13:2 : The node configuration changed and the table spec will be recalculated during execution.
+2022-04-30 17:12:30,058 : WARN  : KNIME-Worker-68-Scorer 5:11 :  : Node : Scorer : 5:11 : There were missing values in the reference or in the prediction class columns.
+2022-04-30 17:14:44,933 : WARN  : KNIME-Worker-72-Scorer 5:11 :  : Node : Scorer : 5:11 : There were missing values in the reference or in the prediction class columns.
+2022-04-30 17:16:16,321 : WARN  : main :  : Node : Excel Reader : 5:13:2 : The node configuration changed and the table spec will be recalculated during execution.
+2022-04-30 17:16:16,325 : WARN  : main :  : Node : Excel Reader : 5:16:13:2 : The node configuration changed and the table spec will be recalculated during execution.
+2022-04-30 17:16:16,338 : WARN  : main :  : Node : Excel Reader : 5:16:0:13:2 : The node configuration changed and the table spec will be recalculated during execution.
+2022-04-30 17:16:17,716 : WARN  : main :  : Node : Excel Reader : 5:16:13:2 : The node configuration changed and the table spec will be recalculated during execution.
+2022-04-30 17:16:17,720 : WARN  : main :  : Node : Excel Reader : 5:13:2 : The node configuration changed and the table spec will be recalculated during execution.
+2022-04-30 17:16:19,755 : WARN  : KNIME-Worker-83-Scorer 5:11 :  : Node : Scorer : 5:11 : There were missing values in the reference or in the prediction class columns.
+2022-04-30 18:02:09,311 : WARN  : main :  : Node : Table Reader : 5:1 : Please specify a file
+2022-04-30 18:03:47,605 : WARN  : KNIME-Worker-89-Data Explorer 5:2 :  : Node : Data Explorer : 5:2 : The following columns have non-generic type and will be excluded from  calculation: 
+[birthday]
+2022-04-30 18:04:10,067 : WARN  : KNIME-Worker-90-Statistics 5:3 :  : Node : Statistics : 5:3 : Maximum number of unique possible values (1000) exceeds for column(s): "birthday","CustomerKey"
+2022-04-30 18:04:16,565 : WARN  : KNIME-Worker-98-Statistics 5:3 :  : Node : Statistics : 5:3 : Maximum number of unique possible values (1000) exceeds for column(s): "birthday","CustomerKey"
+2022-04-30 18:08:33,285 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {139813407882592}
+2022-04-30 18:09:54,702 : WARN  : main :  : Node : Crosstab (local) : 3:5 : Auto guessing: using column "CustomerKey".
+2022-04-30 18:09:54,703 : WARN  : main :  : Node : Crosstab (local) : 3:5 : Auto guessing: using column "WebActivity".
+2022-04-30 18:09:54,704 : WARN  : main :  : Node : Crosstab (local) : 3:5 : Auto guessing: using column "SentimentRating" for weights.
+2022-04-30 18:10:08,076 : WARN  : main :  : Node : Linear Correlation : 3:6 : Auto configuration: Using all suitable columns (in total 15)
+2022-04-30 18:10:10,312 : WARN  : KNIME-Worker-11-Data Explorer 3:4 :  : Node : Data Explorer : 3:4 : The following columns have non-generic type and will be excluded from  calculation: 
+[birthday]
+2022-04-30 18:11:48,348 : WARN  : main :  : Node : Crosstab (local) : 3:7:5 : Auto guessing: using column "CustomerKey".
+2022-04-30 18:11:48,348 : WARN  : main :  : Node : Crosstab (local) : 3:7:5 : Auto guessing: using column "WebActivity".
+2022-04-30 18:11:48,348 : WARN  : main :  : Node : Crosstab (local) : 3:7:5 : Auto guessing: using column "SentimentRating" for weights.
+2022-04-30 18:11:48,349 : WARN  : main :  : Node : Linear Correlation : 3:7:6 : Auto configuration: Using all suitable columns (in total 15)
+2022-04-30 18:13:22,652 : WARN  : KNIME-Worker-16-Data Explorer 3:7:4 :  : Node : Data Explorer : 3:7:4 : The following columns have non-generic type and will be excluded from  calculation: 
+[birthday]
+2022-04-30 18:13:22,680 : WARN  : KNIME-Worker-14-Statistics 3:7:3 :  : Node : Statistics : 3:7:3 : Maximum number of unique possible values (1000) exceeds for column(s): "birthday","CustomerKey"
+2022-04-30 18:14:29,936 : WARN  : KNIME-Worker-24-Missing Value 3:9 :  : Node : Missing Value : 3:9 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2022-04-30 18:21:36,541 : WARN  : main :  : Node : Extract Date&Time Fields : 3:13 : Node must be configured.
+2022-04-30 18:30:48,791 : WARN  : main :  : Node : GroupBy : 3:15 : No grouping column included. Aggregate complete table.
+2022-04-30 18:30:48,792 : WARN  : main :  : Node : GroupBy : 3:15 : No aggregation column defined
+2022-04-30 18:30:48,792 : WARN  : main :  : Node : GroupBy : 3:15 : No aggregation column defined
+2022-04-30 18:30:48,792 : WARN  : main :  : Node : GroupBy : 3:15 : Please select at least one group or aggregation column
+2022-04-30 18:31:53,681 : WARN  : main :  : Node : GroupBy : 3:15 : No aggregation column defined
+2022-04-30 18:31:53,681 : WARN  : main :  : Node : GroupBy : 3:15 : No aggregation column defined
+2022-04-30 18:31:54,429 : WARN  : main :  : Node : GroupBy : 3:15 : No aggregation column defined
+2022-04-30 18:31:54,429 : WARN  : main :  : Node : GroupBy : 3:15 : No aggregation column defined
+2022-04-30 18:34:24,722 : WARN  : main :  : Node : GroupBy : 3:16 : No grouping column included. Aggregate complete table.
+2022-04-30 18:34:24,722 : WARN  : main :  : Node : GroupBy : 3:16 : No aggregation column defined
+2022-04-30 18:34:24,722 : WARN  : main :  : Node : GroupBy : 3:16 : No aggregation column defined
+2022-04-30 18:34:24,722 : WARN  : main :  : Node : GroupBy : 3:16 : Please select at least one group or aggregation column
+2022-04-30 18:34:31,117 : WARN  : main :  : Node : GroupBy : 3:17 : No grouping column included. Aggregate complete table.
+2022-04-30 18:34:31,118 : WARN  : main :  : Node : GroupBy : 3:17 : No aggregation column defined
+2022-04-30 18:34:31,118 : WARN  : main :  : Node : GroupBy : 3:17 : No aggregation column defined
+2022-04-30 18:34:31,118 : WARN  : main :  : Node : GroupBy : 3:17 : Please select at least one group or aggregation column
+2022-05-02 18:35:53,390 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140191497982528}
+2022-05-02 18:36:40,404 : WARN  : main :  : Node : CSV Reader : 3:1 : Please specify a file
+2022-05-02 20:12:33,470 : WARN  : ModalContext :  : Node : Category To Number : 6:11:12 : No columns selected.
+2022-05-02 20:13:40,796 : WARN  : main :  : Node : Crosstab (local) : 3:6:5 : Auto guessing: using column "ages".
+2022-05-02 20:13:40,797 : WARN  : main :  : Node : Crosstab (local) : 3:6:5 : Auto guessing: using column "list_price".
+2022-05-02 20:13:40,797 : WARN  : main :  : Node : Crosstab (local) : 3:6:5 : Auto guessing: using column "num_reviews" for weights.
+2022-05-02 20:13:40,803 : WARN  : main :  : Node : Linear Correlation : 3:6:4 : Auto configuration: Using all suitable columns (in total 11)
+2022-05-02 20:13:43,126 : WARN  : KNIME-Worker-16-Linear Correlation 3:6:4 :  : Node : Linear Correlation : 3:6:4 : Some numeric column(s) contained missing values: "play_star_rating", "val_star_rating", "num_reviews", "star_rating"
+2022-05-02 20:15:26,762 : WARN  : KNIME-Worker-26-Column Filter 6:13:12 :  : Node : Category To Number : 6:11:12 : No columns selected.
+2022-05-02 20:20:10,459 : WARN  : main :  : Node : Category To Number : 3:10 : No columns selected.
+2022-05-02 20:20:39,493 : WARN  : main :  : Node : Category To Number : 3:10 : No columns selected.
+2022-05-02 20:20:41,158 : WARN  : main :  : Node : Category To Number : 3:10 : No columns selected.
+2022-05-02 20:20:46,690 : WARN  : main :  : Node : Numeric Outliers : 3:11 : Auto configuration: Outlier Selection uses all suitable columns (in total 7).
+2022-05-02 20:22:37,304 : WARN  : main :  : Node : Category To Number : 3:10 : No columns selected.
+2022-05-02 20:22:37,307 : WARN  : main :  : Node : Category To Number : 3:10 : No columns selected.
+2022-05-02 20:22:37,316 : WARN  : main :  : Node : Category To Number : 3:12:10 : No columns selected.
+2022-05-02 20:22:49,855 : WARN  : main :  : Node : Category To Number : 3:12:10 : No columns selected.
+2022-05-02 20:22:49,861 : WARN  : main :  : Node : Category To Number : 3:12:10 : No columns selected.
+2022-05-02 20:24:31,009 : WARN  : main :  : Node : Category To Number : 3:10 : No columns selected.
+2022-05-02 20:24:47,578 : WARN  : main :  : Node : Crosstab (local) : 3:5 : Auto guessing: using column "ages".
+2022-05-02 20:24:47,579 : WARN  : main :  : Node : Crosstab (local) : 3:5 : Auto guessing: using column "list_price".
+2022-05-02 20:24:47,579 : WARN  : main :  : Node : Crosstab (local) : 3:5 : Auto guessing: using column "num_reviews" for weights.
+2022-05-02 20:24:47,580 : WARN  : main :  : Node : Linear Correlation : 3:4 : Auto configuration: Using all suitable columns (in total 11)
+2022-05-02 20:24:55,066 : WARN  : main :  : Node : Linear Correlation : 3:4 : Auto configuration: Using all suitable columns (in total 11)
+2022-05-02 20:25:21,772 : WARN  : main :  : Node : Crosstab (local) : 3:15:5 : Auto guessing: using column "ages".
+2022-05-02 20:25:21,772 : WARN  : main :  : Node : Crosstab (local) : 3:15:5 : Auto guessing: using column "list_price".
+2022-05-02 20:25:21,772 : WARN  : main :  : Node : Crosstab (local) : 3:15:5 : Auto guessing: using column "num_reviews" for weights.
+2022-05-02 20:25:27,648 : WARN  : main :  : Node : Linear Correlation : 3:14 : Auto configuration: Using all suitable columns (in total 7)
+2022-05-02 20:25:29,818 : WARN  : KNIME-Worker-45-Duplicate Row Filter 3:9 :  : Node : Category To Number : 3:10 : No columns selected.
+2022-05-02 20:25:59,960 : WARN  : main :  : Node : Partitioning : 3:16 : No sampling method selected
+2022-05-02 20:28:56,057 : WARN  : KNIME-Worker-54-Linear Regression Learner 3:17 :  : Node : Linear Regression Learner : 3:17 : not enough data (5 rows) for this many predictors (8 predictors)
+2022-05-02 20:29:14,661 : WARN  : KNIME-Worker-60-Linear Correlation 6:4:4 :  : Node : Linear Correlation : 6:4:4 : Some numeric column(s) contained missing values: "play_star_rating", "val_star_rating", "num_reviews", "star_rating"
+2022-05-02 20:29:14,664 : WARN  : KNIME-Worker-62-Duplicate Row Filter 6:11:11 :  : Node : Category To Number : 6:11:12 : No columns selected.
+2022-05-02 20:29:59,971 : WARN  : KNIME-Worker-66-Linear Regression Learner 3:17 :  : Node : Linear Regression Learner : 3:17 : not enough data (5 rows) for this many predictors (8 predictors)
+2022-05-02 20:34:50,666 : WARN  : main :  : Node : Category To Number : 3:10 : No columns selected.
+2022-05-02 20:34:51,478 : WARN  : main :  : Node : Category To Number : 3:10 : No columns selected.
+2022-05-02 20:34:56,490 : WARN  : KNIME-Worker-82-Linear Regression Learner 3:17 :  : Node : Linear Regression Learner : 3:17 : not enough data (5 rows) for this many predictors (8 predictors)
+2022-05-02 20:37:09,406 : WARN  : KNIME-Worker-88-Linear Regression Learner 3:17 :  : Node : Linear Regression Learner : 3:17 : not enough data (5 rows) for this many predictors (8 predictors)
+2022-05-02 20:38:33,851 : WARN  : main :  : Node : Linear Regression Learner : 3:17 : The target is not in the input.
+2022-05-02 20:38:38,703 : WARN  : KNIME-Worker-93-Partitioning 3:16 :  : Node : Linear Regression Learner : 3:17 : The target is not in the input.
+2022-05-02 20:39:23,018 : WARN  : main :  : Node : Regression Predictor : 3:18 : The table for prediction does not contain the column "num_reviews".
+2022-05-02 20:40:21,291 : WARN  : main :  : Node : Category To Number : 3:10 : No columns selected.
+2022-05-02 20:40:21,292 : WARN  : main :  : Node : Category To Number : 3:19:10 : No columns selected.
+2022-05-02 20:40:49,147 : WARN  : main :  : Node : Category To Number : 3:10 : No columns selected.
+2022-05-02 20:40:57,719 : WARN  : main :  : Node : Category To Number : 3:10 : No columns selected.
+2022-05-02 20:40:57,720 : WARN  : main :  : Node : Category To Number : 3:10 : No columns selected.
+2022-05-02 20:40:57,722 : WARN  : main :  : Node : Category To Number : 3:19:10 : No columns selected.
+2022-05-02 20:41:41,728 : WARN  : main :  : Node : Numeric Scorer : 3:20 : No columns selected for reference
+2022-05-02 20:41:49,686 : WARN  : KNIME-Worker-113-Duplicate Row Filter 3:19:9 :  : Node : Category To Number : 3:19:10 : No columns selected.
+2022-05-02 22:30:47,862 : WARN  : main :  : Node : CSV Reader : 7:1 : Please specify a file
+2022-05-02 22:30:52,474 : WARN  : main :  : Node : Table Reader : 7:2 : Please specify a file
+2022-05-02 22:31:04,887 : WARN  : AWT-EventQueue-0 :  : CSVFormatAutoDetectionSwingWorker : CSV Reader : 7:1 : org.knime.core.node.InvalidSettingsException: Please specify a file
+java.util.concurrent.ExecutionException: org.knime.core.node.InvalidSettingsException: Please specify a file
+	at java.base/java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.get(Unknown Source)
+	at org.knime.base.node.io.filehandling.csv.reader.CSVFormatAutoDetectionSwingWorker.doneWithContext(CSVFormatAutoDetectionSwingWorker.java:135)
+	at org.knime.core.util.SwingWorkerWithContext.done(SwingWorkerWithContext.java:163)
+	at java.desktop/javax.swing.SwingWorker$5.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(Unknown Source)
+	at java.desktop/sun.swing.AccumulativeRunnable.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.Timer.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.Timer$DoPostEvent.run(Unknown Source)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.core.node.InvalidSettingsException: Please specify a file
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:269)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:219)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:291)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:202)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.reader.ReadPathAccessor.getPaths(ReadPathAccessor.java:96)
+	at org.knime.base.node.io.filehandling.csv.reader.CSVFormatAutoDetectionSwingWorker.doInBackgroundWithContext(CSVFormatAutoDetectionSwingWorker.java:100)
+	at org.knime.base.node.io.filehandling.csv.reader.CSVFormatAutoDetectionSwingWorker.doInBackgroundWithContext(CSVFormatAutoDetectionSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2022-05-02 22:32:27,379 : WARN  : main :  : Node : Joiner : 7:3 : No join columns passed.
+2022-05-02 22:34:24,977 : WARN  : main :  : WrappedNodeDialog : Rule Engine : 7:4 : failed to apply settings: line 5, col 0: Expression before 'LIKE' is not a string.
+org.knime.core.node.InvalidSettingsException: line 5, col 0: Expression before 'LIKE' is not a string.
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:571)
+	at org.knime.base.node.rules.engine.RuleEngineNodeDialog.saveSettingsTo(RuleEngineNodeDialog.java:114)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.text.ParseException: line 5, col 0: Expression before 'LIKE' is not a string.
+	at org.knime.base.node.rules.engine.BaseRuleParser.reportNotString(BaseRuleParser.java:973)
+	at org.knime.base.node.rules.engine.BaseRuleParser.handleRelationRightOperand(BaseRuleParser.java:942)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseRelation(BaseRuleParser.java:857)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseRootBooleanExpression(BaseRuleParser.java:757)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseAndExpression(BaseRuleParser.java:712)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseXorExpression(BaseRuleParser.java:689)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseOrExpression(BaseRuleParser.java:666)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseBooleanExpression(BaseRuleParser.java:654)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parseCondition(SimpleRuleParser.java:278)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parse(SimpleRuleParser.java:230)
+	at org.knime.base.node.rules.engine.RuleFactory.parse(RuleFactory.java:191)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:468)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:496)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:507)
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:569)
+	... 18 more
+2022-05-02 22:34:55,536 : WARN  : main :  : WrappedNodeDialog : Rule Engine : 7:4 : failed to apply settings: line 5, col 0: Expression before 'LIKE' is not a string.
+org.knime.core.node.InvalidSettingsException: line 5, col 0: Expression before 'LIKE' is not a string.
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:571)
+	at org.knime.base.node.rules.engine.RuleEngineNodeDialog.saveSettingsTo(RuleEngineNodeDialog.java:114)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.text.ParseException: line 5, col 0: Expression before 'LIKE' is not a string.
+	at org.knime.base.node.rules.engine.BaseRuleParser.reportNotString(BaseRuleParser.java:973)
+	at org.knime.base.node.rules.engine.BaseRuleParser.handleRelationRightOperand(BaseRuleParser.java:942)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseRelation(BaseRuleParser.java:857)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseRootBooleanExpression(BaseRuleParser.java:757)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseAndExpression(BaseRuleParser.java:712)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseXorExpression(BaseRuleParser.java:689)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseOrExpression(BaseRuleParser.java:666)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseBooleanExpression(BaseRuleParser.java:654)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parseCondition(SimpleRuleParser.java:278)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parse(SimpleRuleParser.java:230)
+	at org.knime.base.node.rules.engine.RuleFactory.parse(RuleFactory.java:191)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:468)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:496)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:507)
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:569)
+	... 18 more
+2022-05-02 22:34:59,504 : WARN  : main :  : WrappedNodeDialog : Rule Engine : 7:4 : failed to apply settings: line 5, col 0: Expression before 'LIKE' is not a string.
+org.knime.core.node.InvalidSettingsException: line 5, col 0: Expression before 'LIKE' is not a string.
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:571)
+	at org.knime.base.node.rules.engine.RuleEngineNodeDialog.saveSettingsTo(RuleEngineNodeDialog.java:114)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.text.ParseException: line 5, col 0: Expression before 'LIKE' is not a string.
+	at org.knime.base.node.rules.engine.BaseRuleParser.reportNotString(BaseRuleParser.java:973)
+	at org.knime.base.node.rules.engine.BaseRuleParser.handleRelationRightOperand(BaseRuleParser.java:942)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseRelation(BaseRuleParser.java:857)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseRootBooleanExpression(BaseRuleParser.java:757)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseAndExpression(BaseRuleParser.java:712)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseXorExpression(BaseRuleParser.java:689)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseOrExpression(BaseRuleParser.java:666)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseBooleanExpression(BaseRuleParser.java:654)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parseCondition(SimpleRuleParser.java:278)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parse(SimpleRuleParser.java:230)
+	at org.knime.base.node.rules.engine.RuleFactory.parse(RuleFactory.java:191)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:468)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:496)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:507)
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:569)
+	... 18 more
+2022-05-02 22:35:44,064 : WARN  : main :  : WrappedNodeDialog : Rule Engine : 7:4 : failed to apply settings: line 5, col 0: Expression before 'LIKE' is not a string.
+org.knime.core.node.InvalidSettingsException: line 5, col 0: Expression before 'LIKE' is not a string.
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:571)
+	at org.knime.base.node.rules.engine.RuleEngineNodeDialog.saveSettingsTo(RuleEngineNodeDialog.java:114)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.text.ParseException: line 5, col 0: Expression before 'LIKE' is not a string.
+	at org.knime.base.node.rules.engine.BaseRuleParser.reportNotString(BaseRuleParser.java:973)
+	at org.knime.base.node.rules.engine.BaseRuleParser.handleRelationRightOperand(BaseRuleParser.java:942)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseRelation(BaseRuleParser.java:857)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseRootBooleanExpression(BaseRuleParser.java:757)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseAndExpression(BaseRuleParser.java:712)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseXorExpression(BaseRuleParser.java:689)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseOrExpression(BaseRuleParser.java:666)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseBooleanExpression(BaseRuleParser.java:654)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parseCondition(SimpleRuleParser.java:278)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parse(SimpleRuleParser.java:230)
+	at org.knime.base.node.rules.engine.RuleFactory.parse(RuleFactory.java:191)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:468)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:496)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:507)
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:569)
+	... 18 more
+2022-05-02 22:38:10,900 : WARN  : main :  : Node : String to Date&Time : 7:5 : Node must be configured!
+2022-05-02 22:38:20,244 : ERROR : KNIME-Worker-159-String to Date&Time 7:5 :  : Node : String to Date&Time : 7:5 : Execute failed: Failed to parse date in row 'Row0_Row0: Text '05/02/2010' could not be parsed at index 0
+java.lang.IllegalArgumentException: Failed to parse date in row 'Row0_Row0: Text '05/02/2010' could not be parsed at index 0
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:408)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:575)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:495)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:153)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:432)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel.execute(StringToDateTimeNodeModel.java:226)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:758)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2022-05-02 22:38:31,722 : ERROR : KNIME-Worker-160-String to Date&Time 7:5 :  : Node : String to Date&Time : 7:5 : Execute failed: Failed to parse date in row 'Row0_Row0: Text 'A' could not be parsed at index 0
+java.lang.IllegalArgumentException: Failed to parse date in row 'Row0_Row0: Text 'A' could not be parsed at index 0
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:408)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:575)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:495)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:153)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:432)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel.execute(StringToDateTimeNodeModel.java:226)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:758)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2022-05-02 22:39:42,928 : ERROR : KNIME-Worker-161-String to Date&Time 7:5 :  : Node : String to Date&Time : 7:5 : Execute failed: Failed to parse date in row 'Row0_Row0: Text '05/02/2010' could not be parsed at index 0
+java.lang.IllegalArgumentException: Failed to parse date in row 'Row0_Row0: Text '05/02/2010' could not be parsed at index 0
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:408)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:575)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:495)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:153)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:432)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel.execute(StringToDateTimeNodeModel.java:226)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:758)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2022-05-02 22:40:44,778 : WARN  : main :  : Node : Extract Date&Time Fields : 7:6 : Node must be configured.
+2022-05-02 22:41:12,248 : WARN  : main :  : Node : GroupBy : 7:7 : No grouping column included. Aggregate complete table.
+2022-05-02 22:41:12,249 : WARN  : main :  : Node : GroupBy : 7:7 : No aggregation column defined
+2022-05-02 22:41:12,249 : WARN  : main :  : Node : GroupBy : 7:7 : No aggregation column defined
+2022-05-02 22:41:12,249 : WARN  : main :  : Node : GroupBy : 7:7 : Please select at least one group or aggregation column
+2022-05-02 22:41:53,188 : WARN  : main :  : Node : GroupBy : 7:7 : No aggregation column defined
+2022-05-02 22:41:53,188 : WARN  : main :  : Node : GroupBy : 7:7 : No aggregation column defined
+2022-05-02 22:41:53,883 : WARN  : main :  : Node : GroupBy : 7:7 : No aggregation column defined
+2022-05-02 22:41:53,883 : WARN  : main :  : Node : GroupBy : 7:7 : No aggregation column defined
+2022-05-02 22:43:47,891 : WARN  : main :  : Node : Normalizer : 6:22 : Auto-configure: [0, 1] normalization on all numeric columns: "Store", "Size", "Year",  ... <2 more>
+2022-05-02 22:43:52,882 : WARN  : main :  : Node : Normalizer : 7:8 : Auto-configure: [0, 1] normalization on all numeric columns: "Store", "Size", "Year",  ... <3 more>
+2022-05-02 22:47:00,345 : WARN  : main :  : Node : Decision Tree Learner : 7:11 : Guessing target column: "Sum(Weekly_Sales)".
+2022-05-02 22:48:36,097 : WARN  : main :  : Node : CSV Reader : 7:12 : Please specify a file
+2022-05-02 22:49:51,064 : WARN  : main :  : Node : Scorer : 7:14 : No columns selected yet.
+2022-05-02 22:55:55,562 : WARN  : main :  : Node : Random Forest Learner : 7:15 : No configuration available
+2022-05-02 22:56:42,316 : WARN  : main :  : Node : Random Forest Learner : 7:15 : No configuration available
+2022-05-02 22:58:04,276 : WARN  : main :  : Node : Scorer : 7:18 : No columns selected yet.
+2022-05-02 22:59:17,865 : WARN  : main :  : Node : Random Forest Learner : 7:19:15 : 1 column(s) were ignored due to missing domain information: ["Type"] -- change the node configuration or use a Domain Calculator node to fix it
+2022-05-02 22:59:17,867 : WARN  : main :  : Node : Random Forest Learner : 7:19:15 : 1 column(s) were ignored due to missing domain information: ["Type"] -- change the node configuration or use a Domain Calculator node to fix it
+2022-05-02 22:59:17,867 : WARN  : main :  : Node : Random Forest Learner : 7:19:15 : 1 column(s) were ignored due to missing domain information: ["Type"] -- change the node configuration or use a Domain Calculator node to fix it
+2022-05-02 22:59:17,873 : WARN  : main :  : Node : Random Forest Learner : 7:19:15 : 1 column(s) were ignored due to missing domain information: ["Type"] -- change the node configuration or use a Domain Calculator node to fix it
+2022-05-02 22:59:17,874 : WARN  : main :  : Node : Random Forest Learner : 7:19:15 : 1 column(s) were ignored due to missing domain information: ["Type"] -- change the node configuration or use a Domain Calculator node to fix it
+2022-05-02 23:00:11,580 : WARN  : main :  : Node : Random Forest Learner : 7:19:15 : 1 column(s) were ignored due to missing domain information: ["Type"] -- change the node configuration or use a Domain Calculator node to fix it
+2022-05-02 23:01:44,465 : WARN  : KNIME-Worker-229-CSV Reader 7:20:12 :  : Node : Random Forest Learner : 7:19:15 : 1 column(s) were ignored due to missing domain information: ["Type"] -- change the node configuration or use a Domain Calculator node to fix it
+2022-05-02 23:24:30,856 : WARN  : main :  : Node : CSV Reader : 8:1 : Please specify a file
+2022-05-02 23:26:35,926 : WARN  : main :  : Node : Crosstab (local) : 8:15:5 : Auto guessing: using column "Id".
+2022-05-02 23:26:35,926 : WARN  : main :  : Node : Crosstab (local) : 8:15:5 : Auto guessing: using column "SepalLengthCm".
+2022-05-02 23:26:35,927 : WARN  : main :  : Node : Crosstab (local) : 8:15:5 : Auto guessing: using column "SepalWidthCm" for weights.
+2022-05-02 23:27:12,644 : WARN  : main :  : Node : Partitioning : 8:16 : No sampling method selected
+2022-05-02 23:30:12,258 : WARN  : main :  : Node : Color Manager : 8:19 : Selected column "Cluster" with default nominal color mapping.
+2022-05-02 23:30:24,854 : WARN  : main :  : Node : Shape Manager : 8:20 : No column selected.
+2022-05-02 23:30:55,510 : WARN  : main :  : Node : Shape Manager : 8:20 : No column selected.
+2022-05-02 23:30:55,867 : WARN  : main :  : Node : Shape Manager : 8:20 : No column selected.
+2022-05-02 23:33:38,875 : WARN  : main :  : Node : Scorer (JavaScript) : 8:24 : Please configure the node.
+2022-05-02 23:56:31,675 : WARN  : main :  : Node : Color Manager : 8:19 : Column "Cluster" not found.
+2022-05-03 14:53:20,864 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140217469334224}
+2022-05-03 14:55:18,577 : WARN  : main :  : Node : Normalizer : 5:7 : Auto-configure: [0, 1] normalization on all numeric columns: "CustomerKey", "WebActivity", "SentimentRating",  ... <8 more>
+2022-05-03 14:55:37,250 : WARN  : KNIME-Worker-15-Data Explorer 5:4 :  : Node : Data Explorer : 5:4 : The following columns have non-generic type and will be excluded from  calculation: 
+[birthday]
+2022-05-03 14:55:37,352 : WARN  : KNIME-Worker-16-Statistics 5:3 :  : Node : Statistics : 5:3 : Maximum number of unique possible values (1000) exceeds for column(s): "birthday","CustomerKey"
+2022-05-03 14:56:39,319 : WARN  : main :  : Node : Normalizer : 5:9:7 : Auto-configure: [0, 1] normalization on all numeric columns: "CustomerKey", "WebActivity", "SentimentRating",  ... <8 more>
+2022-05-03 14:57:39,309 : WARN  : KNIME-Worker-27-Statistics 5:9:3 :  : Node : Statistics : 5:9:3 : Maximum number of unique possible values (1000) exceeds for column(s): "birthday","CustomerKey"
+2022-05-03 14:57:39,398 : WARN  : KNIME-Worker-25-Data Explorer 5:9:4 :  : Node : Data Explorer : 5:9:4 : The following columns have non-generic type and will be excluded from  calculation: 
+[birthday]
+2022-05-03 15:00:47,963 : ERROR : KNIME-Worker-55-Category To Number 5:16 :  : Node : Category To Number : 5:16 : Execute failed: Maximum number of categories reached for column: birthday (to number)
+java.lang.IllegalStateException: Maximum number of categories reached for column: birthday (to number)
+	at org.knime.base.node.preproc.colconvert.categorytonumber2.CategoryToNumberCellFactory.getCells(CategoryToNumberCellFactory.java:118)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:575)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:495)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:153)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:432)
+	at org.knime.base.node.preproc.colconvert.categorytonumber2.CategoryToNumberNodeModel.execute(CategoryToNumberNodeModel.java:161)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2022-05-03 15:02:11,127 : WARN  : main :  : Node : Normalizer : 5:17 : Auto-configure: [0, 1] normalization on all numeric columns: "CustomerKey", "WebActivity", "SentimentRating",  ... <16 more>
+2022-05-03 15:02:58,323 : WARN  : main :  : Node : Numeric Outliers : 5:19 : Auto configuration: Outlier Selection uses all suitable columns (in total 13).
+2022-05-16 16:23:27,299 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {139713748288720}
+2022-05-17 08:20:12,130 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140147743950176}

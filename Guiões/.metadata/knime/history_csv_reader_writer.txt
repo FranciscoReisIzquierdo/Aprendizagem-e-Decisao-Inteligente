@@ -1,0 +1,10 @@
+/home/franciscoizquierdo/Transferências/iris_data.csv
+/home/franciscoizquierdo/Transferências/sales_test_set.csv
+/home/franciscoizquierdo/Transferências/sales_training_set.csv
+/home/franciscoizquierdo/Transferências/lego_sets.csv
+/home/franciscoizquierdo/Transferências/ContractData.csv
+/home/franciscoizquierdo/Transferências/titanic_dataset.csv
+knime://LOCAL/TP6/college_data_test.csv
+knime://LOCAL/TP6/college_data_train.csv
+knime://LOCAL/TP6/iris_data.csv
+knime://LOCAL/TP5/sales_training_set.csv
